@@ -1,0 +1,28 @@
+name: Build 
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  DOTNET_VERSION: "6.0.x"
+  APP_NAME: masya
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code 🔍
+        uses: actions/checkout@v3
+
+      - name: Setup .NET 6 👌
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Restore dependencies ⚙
+        run: dotnet restore
+
+      - name: Build application 🔨
+        run: dotnet build -c Release --no-restore
