@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Build](https://github.com/Masya1/Telegram.Commands/actions/workflows/build-actions.yaml/badge.svg?branch=main)](https://github.com/Masya1/Telegram.Commands/actions/workflows/build-actions.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md) [![Build](https://github.com/Masya1/Telegram.Commands/actions/workflows/build-actions.yaml/badge.svg?branch=main)](https://github.com/Masya1/Telegram.Commands/actions/workflows/build-actions.yaml)
 
 # Masya's Telegram Bot Commands Lib
 
